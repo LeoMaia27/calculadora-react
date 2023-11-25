@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-image: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
+
+.calculator {
+    height: 27.2rem;
+    width: 25.93rem;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: burlywood;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 68px 68px 68px 68px 68px; 
+}
